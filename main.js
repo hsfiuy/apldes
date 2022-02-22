@@ -51,9 +51,10 @@ function draw() {
       x = Math.floor(Math.random() * 700);
       y = Math.floor(Math.random()*400);
       image(apple,x,y,50,50);
+
     }
-          speak_data = to_number + "apples drawn";
-      speak(speak_data);
+    speak_data = to_number + "apples drawn";
+    speak(speak_data);
   }
 }
 
